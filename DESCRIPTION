@@ -1,13 +1,19 @@
 Package: stkfolio
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
-Encoding: UTF-8
-LazyData: true
+Title: A stock and portfolio analysis toolkit
+Version: 0.1.0.9000
+Authors@R: c(
+    person("Davis", "Vaughan", email = "dvaughan@business-science.io", role = c("aut", "cre")),
+    person("Matt", "Dancho", email = "mdancho@business-science.io", role = c("aut"))
+  )
+Maintainer: Davis Vaughan <dvaughan@business-science.io>
+Description: A number of tools related to working with individual stocks or 
+entire portfolios.
 URL: https://github.com/DavisVaughan/stkfolio
 BugReports: https://github.com/DavisVaughan/stkfolio/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+LazyData: true
+VignetteBuilder: knitr
