@@ -8,7 +8,7 @@ Authors@R: c(
   )
 Maintainer: Davis Vaughan <dvaughan@business-science.io>
 Description: A number of tools related to working with individual stocks or 
-entire portfolios.
+   entire portfolios.
 URL: https://github.com/DavisVaughan/stkfolio
 BugReports: https://github.com/DavisVaughan/stkfolio/issues
 License: MIT + file LICENSE
@@ -17,3 +17,14 @@ RoxygenNote: 6.0.1
 Roxygen: list(markdown = TRUE)
 LazyData: true
 VignetteBuilder: knitr
+Depends:
+    R (>= 2.10)
+Imports: 
+  crayon (>= 1.3.4),
+  dplyr (>= 0.7.4),
+  glue (>= 1.2.0),
+  rlang (>= 0.1.6),
+  tibbletime,
+  tidyselect (>= 0.2.3)
+Suggests: 
+    testthat
